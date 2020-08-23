@@ -1,0 +1,223 @@
+#feature {
+    padding: 50px 0;
+}
+
+.features {
+    margin-top: 60px;
+
+    @media (max-width: 1550px) {
+        margin-top: 30px;
+        display: grid !important;
+        grid-template-columns: auto auto auto auto;
+        justify-items: center;
+        text-align: center;
+    }
+
+    @media (max-width: 1191px) {
+        grid-template-columns: auto auto auto;
+        justify-items: center;
+        text-align: center;
+    }
+
+    @media (max-width: 767px) {
+        grid-template-columns: auto auto;
+        justify-items: center;
+    }
+
+    @media (max-width: 500px) {
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+
+    .single-feature-box {
+        width: 218px;
+        height: 173px;
+        background: #fff;
+        padding: 31px 27px;
+        padding-right: 26px;
+        border-radius: 10px;
+        display: block;
+        box-shadow: 0px 12px 50px rgba(0, 0, 0, 0.1);
+
+        @media (max-width: 1550px) {
+            text-align: center;
+
+            &:nth-child(1) {
+                display: none;
+            }
+
+            &:last-child {
+                display: none;
+            }
+        }
+
+        @media (min-width: 1550px) {
+            margin-left: -28px;
+
+            &:nth-child(1) {
+                margin-top: 78px;
+            }
+
+            &:nth-child(2) {
+                margin-top: -25px;
+            }
+
+            &:nth-child(3) {
+                margin-top: 70px;
+            }
+
+            &:nth-child(4) {
+                margin-top: -15px;
+            }
+
+            &:nth-child(5) {
+                margin-top: 33px;
+            }
+
+            &:nth-child(6) {
+                margin-top: -1px;
+            }
+
+            &:nth-child(7) {
+                margin-top: 80px;
+            }
+
+            &:nth-child(8) {
+                margin-top: 18px;
+            }
+
+            &:nth-child(9) {
+                margin-top: -24px;
+            }
+
+            &:nth-child(10) {
+                margin-top: 66px;
+            }
+        }
+
+        @media (max-width: 1550px) {
+            margin-top: 30px;
+        }
+
+        .icon {
+            width: 45px;
+            height: auto;
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        h4 {
+            margin-top: 20px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 25px;
+            text-align: left;
+        }
+    }
+}
+
+.features-block-section {
+    padding-top: 162px;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-position: top left;
+
+    @media (min-width: 1191px) {
+        .pt-130 {
+            padding-top: 130px;
+        }
+    }
+
+    .single-features-block {
+        margin-top: 115px;
+
+        @media (max-width: 1191px) {
+            margin-top: 80px;
+        }
+
+        img {
+            border-radius: 15px;
+            box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        &.col-12 {
+            padding: 0px;
+        }
+
+        .features-info {
+            margin-top: 39px;
+
+            h2 {
+                font-weight: bold;
+                font-size: 34px;
+                line-height: 40px;
+                text-align: left;
+                position: relative;
+                margin-bottom: 54px;
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    height: 4px;
+                    width: 65px;
+                    bottom: -20px;
+                    left: 0;
+                    border-radius: 2px;
+                    background: linear-gradient(to right, #f40076, #fe9e45);
+                    background: -wibkit-linear-gradient(to right, #f40076, #fe9e45);
+                }
+            }
+
+            p {}
+        }
+    }
+}
+
+.special-featured-section {
+    padding: 120px 0px;
+    background: #000;
+
+    @media (max-width: 1191px) {
+        padding: 100px 0px;
+    }
+
+    @media (max-width: 991px) {
+        padding: 80px 0px;
+    }
+
+    .features-img {
+        border-radius: 15px 15px 0px 0px;
+        box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .feature-list {
+
+        @media (max-width: 1191px) {
+            margin-top: 60px;
+        }
+
+        .single-list-item {
+            margin-bottom: 34px;
+            display: flex;
+            align-items: center;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .icon {
+                width: 48px;
+                float: left;
+                overflow: hidden;
+            }
+
+            .f-title {
+                padding-left: 30px;
+                overflow: auto;
+                display: block;
+            }
+        }
+    }
+}

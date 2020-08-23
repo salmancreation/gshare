@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="278" height="33" viewBox="0 0 278 33">
+  <g id="Group_1221" data-name="Group 1221" transform="translate(-375 -46)">
+    <text id="Social_Media_Share_Button" data-name="Social Media Share Button" transform="translate(420 70)" fill="#fff" font-size="20" font-family="Asap-Medium, Asap" font-weight="500"><tspan x="0" y="0">Social Media Share Button</tspan></text>
+    <g id="Group_1063" data-name="Group 1063" transform="translate(0 7)">
+      <g id="Group_1062" data-name="Group 1062" transform="translate(6.356 5.684)">
+        <rect id="Rectangle_154" data-name="Rectangle 154" width="6.767" height="1.484" transform="translate(380.809 48.503) rotate(-30)" fill="#fff"/>
+        <rect id="Rectangle_155" data-name="Rectangle 155" width="6.141" height="1.484" transform="matrix(0.841, 0.541, -0.541, 0.841, 382.66, 50.002)" fill="#fff"/>
+        <circle id="Ellipse_34" data-name="Ellipse 34" cx="2.605" cy="2.605" r="2.605" transform="translate(386.274 42)" fill="none" stroke="#fff" stroke-width="1.5"/>
+        <circle id="Ellipse_35" data-name="Ellipse 35" cx="2.605" cy="2.605" r="2.605" transform="translate(377 47.951)" fill="none" stroke="#fff" stroke-width="1.5"/>
+        <circle id="Ellipse_36" data-name="Ellipse 36" cx="2.605" cy="2.605" r="2.605" transform="translate(386.9 51.899)" fill="none" stroke="#fff" stroke-width="1.5"/>
+      </g>
+      <g id="Ellipse_89" data-name="Ellipse 89" transform="translate(375 39)" fill="none" stroke="#fff" stroke-width="1.5">
+        <circle cx="16.5" cy="16.5" r="16.5" stroke="none"/>
+        <circle cx="16.5" cy="16.5" r="15.75" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
