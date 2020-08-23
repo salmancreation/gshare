@@ -4,7 +4,26 @@ header {
     z-index: 99;
     position: fixed;
 
-    .logo {}
+    .logo {
+        display: block;
+
+        img {
+            width: 33px;
+            display: inline-block;
+        }
+
+        line-height: 1;
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+
+        span {
+            margin-left: 10px;
+        }
+    }
 
     nav {
         ul {
@@ -47,7 +66,12 @@ header {
 
             &:hover {
                 color: #222;
+
+                @media (max-width: 1191px) {
+                    color: #f40076;
+                }
             }
+
 
             &.pro-btn {
                 display: inline-block;
@@ -108,7 +132,7 @@ header.header-menu.sticky {
             a {
                 display: block;
                 font-size: 16px;
-                line-height: 40px;
+                line-height: 42px;
                 color: #fff;
                 font-weight: 500;
 

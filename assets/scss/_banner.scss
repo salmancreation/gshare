@@ -60,7 +60,7 @@
         bottom: 0px;
         content: "";
         position: absolute;
-        background-color: #111111;
+        background-color: #F5F7FA;
         width: 100%;
         z-index: -1;
     }
@@ -157,10 +157,10 @@ footer {
     }
 
     padding-bottom: 84px;
-    background-color: #f5f7fa;
+    background-color: #F5F7FA;
 
     @media (max-width: 991px) {
-        padding-top: 64;
+        padding-top: 64px;
     }
 
     .footer-widgets {

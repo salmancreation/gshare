@@ -220,13 +220,28 @@ a {
 .pt-200 {
     padding-top: 200px;
 }
+svg .st2 {
+    fill: none;
+    stroke: #fff;
+}
+svg#circle_3_ {
+    width: 85%;
+}
 
 .pricing-tab {
-    border: none;
-    display: inline-block;
-    font-size: 0;
-    overflow: hidden;
-    border-radius: 23.5px;
+    max-width: 380px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 13px 0 rgb(250 103 111 / 90%);
+    box-shadow: 0 3px 13px 0 rgb(250 103 111 / 90%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    padding: 7px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 0px;
+    border-radius: 30px;
 
     .nav-item {
         margin: 0;
@@ -234,15 +249,17 @@ a {
         font-size: 1.6rem;
 
         .nav-link {
-            border: 1px solid #fff;
+            border: 0px;
             border-radius: 0;
-            line-height: 31px;
-            padding: 7px 15px;
-            min-width: 120px;
+            line-height: 1.5;
+            padding: 9px 20px;
+            min-width: 150px;
             text-align: center;
             position: relative;
             overflow: visible;
             z-index: 2;
+            font-weight: 500;
+            color: #f40076;
             background-color: transparent;
 
             &.active {
@@ -259,19 +276,19 @@ a {
 
         &:first-child {
             .nav-link {
-                border-top-left-radius: 23.5px;
-                border-bottom-left-radius: 23.5px;
+                border-radius: 30px;
 
                 &:before {
                     content: '';
                     top: 0;
                     left: 100%;
-                    width: 120px;
+                    width: 150px;
                     height: 100%;
                     position: absolute;
-                    background-color: #FFD061;
+                    background-color: #f40076;
                     transition: all 0.4s ease-in-out;
                     z-index: -1;
+                    border-radius: 30px;
                 }
 
                 &.active {
@@ -279,13 +296,6 @@ a {
                         left: 0;
                     }
                 }
-            }
-        }
-
-        &:last-child {
-            .nav-link {
-                border-top-right-radius: 23.5px;
-                border-bottom-right-radius: 23.5px;
             }
         }
     }
@@ -315,7 +325,25 @@ a {
     box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.08);
     padding: 65px 51px;
     position: relative;
+    overflow:   hidden;
     transition: all 0.3s ease-in-out;
+
+
+    .offter-tag {
+        color: #fff;
+        background: #ffd061;
+        padding: 6.5px 55px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 0px 0px 30px 40px;
+        line-height: 1;
+        font-size: 14px;
+        text-transform: capitalize;
+        display: block;
+        text-align: center;
+    }
 
     &:before {
         content: '';
